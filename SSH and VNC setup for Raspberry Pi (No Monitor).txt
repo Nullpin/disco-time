@@ -1,0 +1,47 @@
+﻿DISCO TIME - MONITORLESS RASPBERRY PI VIEWING
+
+
+No monitor? No problem!
+Using the power of SSH and VNC, you don’t actually require a monitor to see whats happening on your raspberry pi, however you will need a wifi connection.
+
+
+1. Flash the Raspberry Pis respectively and set up with WiFi beforehand.
+
+
+2. Using discotime or any other network discovery tool, note down the IPv4 address as you will use SSH.
+
+
+3. Use SSH to connect to the respective Rasp Pi, the default user is pi and the default password is raspberry if you are using an already flashed rasp pi as I was, since I had to borrow equipment from school.
+
+
+The ssh command you should use is ssh user@ipv4address
+
+
+4. Now that you are running a SSH session, you will need to install and setup a VNC viewer on your PC and then setup VNC on your raspberry pi, luckily this is easy.
+Install any VNC Viewer software of your choice, I installed tigerVNC, onto your PC.
+
+
+Open the terminal on your rasp pi
+Run:
+sudo raspi-config
+
+
+Navigate to the interface, select VNC and enable it.
+Exit
+
+
+5. You will be asked for credentials;
+You can either setup a VNC user, or you can use the raspberry pi’s username and password and continue without a VNC user.
+For simplicity’s sake, don’t setup a separate VNC user.
+
+
+6. Connect to your raspberry pi from your PC using your respective software.
+
+
+7. You should be in and be able to view the desktop, from there you can enjoy, just note it can be super slow as it is a mini computer.
+
+
+For security, make sure you change your username and password and often check no suspicious activity is happening in your ports on both your pc and raspberry pi.
+
+
+Repeat these steps for both raspberry Pis.
