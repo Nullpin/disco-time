@@ -1,5 +1,5 @@
 # disco-time
-This is a simple networking monitoring tool, it is configured for the raspberry pi pico 2W and Raspberry pi 3B 
+This is a fun little networking monitoring tool that incorprates physical hardware alongside your pc, it is configured for the raspberry pi pico 2W and Raspberry pi 3B 
 
 You will require:
 - A functioning laptop/PC
