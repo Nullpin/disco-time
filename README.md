@@ -20,6 +20,11 @@ DEVICE_CIRCUTNum
 PROGRAM_ProgramNum_Name
 
 
+!!!!!!!!!!!!RUN THE TOOL THROUGH TERMINAL!!!!!!!
+IT WILL NOT WORK OTHERWISE
+THIS IS BECAUSE OF A MULTITUDE OF PROBLEMS
+NAMELY BECAUSE WINDOWS 
+
 This is purely a passion project, credit will be given, alongside that it will forever remain open-sourced.
 
 Made with love
